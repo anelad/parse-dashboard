@@ -24,6 +24,10 @@
     "PARSE_DASHBOARD_SERVER_URL": {
       "description": "URL to connect to your Heroku instance",
       "value": "http://your-parse-server.herokuapp.com/parse"
+    },
+    "PARSE_DASHBOARD_ALLOW_INSECURE_HTTP": {
+      "description": "allow insecure http to your Heroku instance",
+      "value": "1"
     }
   },
   "image": "heroku/nodejs"
